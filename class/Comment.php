@@ -1,5 +1,12 @@
 <?php
 
+namespace App;
+
+/**
+ * Class for comment getter and setter
+ * @Author: Alvin Dela Cruz <delacruzalvinstaana@gmail.com>
+ * @Date: 2024-05-14 
+ */
 class Comment
 {
 	protected $id, $body, $createdAt, $newsId;

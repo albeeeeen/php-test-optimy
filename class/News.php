@@ -1,5 +1,12 @@
 <?php
 
+namespace App;
+
+/**
+ * Class for news getter and setter
+ * @Author: Alvin Dela Cruz <delacruzalvinstaana@gmail.com>
+ * @Date: 2024-05-14 
+ */
 class News
 {
 	protected $id, $title, $body, $createdAt;
